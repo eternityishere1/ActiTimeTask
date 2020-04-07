@@ -10,9 +10,10 @@
   <name>actiTimeTask</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+<properties>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
 
   <dependencies>
   	<dependency>
@@ -42,5 +43,15 @@
     <version>3.141.59</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.6.2</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
+  
+ 
 </project>

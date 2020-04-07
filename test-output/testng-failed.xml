@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.testCases.DeleteCustomerTest">
+      <class name="com.testCases.ActiTimeLogintest">
         <methods>
-          <include name="createNewCustomer"/>
+          <include name="launchBrowser"/>
           <include name="driverinit"/>
         </methods>
-      </class> <!-- com.testCases.DeleteCustomerTest -->
+      </class> <!-- com.testCases.ActiTimeLogintest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
